@@ -1,4 +1,4 @@
-# Getting and cleaning data assignment
+## Getting and cleaning data assignment
 The goal of this assignment was to create a tidy dataset based on the "Human Activity Recognition Using Smartphones Dataset" available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 This repo contains 2 files (in addition to the README.md):
