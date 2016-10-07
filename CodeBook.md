@@ -10,7 +10,7 @@ The first two columns (= variables) of the dataset are factors identifying subje
 - subjectID: Subject identifier. The range is from 1 to 30. 
 - activity: Activity performed by the subject. 6 levels: walking, walking upstairs, walking downstairs, standing, siting, laying.
 
-The remaining 66 columns represent the means and the standard deviations for the following time- and frequency domain features included in the original data set (-XYZ is used to denote variables for which 3 separate columns exist corresponding to the X, Y, and Z direction):
+The remaining 66 columns represent the means and the standard deviations for the following time- and frequency domain features included in the original data set (below "-XYZ" is used to denote features for which 3 separate columns exist in the data set corresponding to the X, Y, and Z direction):
 
 Time-domain features (prefix 't') include:
 - tBodyAcc-XYZ
