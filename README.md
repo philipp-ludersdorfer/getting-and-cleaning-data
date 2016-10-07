@@ -1,9 +1,9 @@
-# Getting and cleaning data assignment
+## Getting and cleaning data assignment
 The goal of this assignment was to create a tidy dataset based on the "Human Activity Recognition Using Smartphones Dataset" available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 This repo contains 2 files (in addition to the README.md):
 
-## 1) The "run_analysis.R"  script 
+### 1) The "run_analysis.R"  script 
 ... outputs a textfile called "meandata.txt" that contains a "tidy" dataset which 
 - is a combination of the training and test data set of the original data
 - contains only the mean and standard deviation features included in the original data set 
