@@ -1,7 +1,6 @@
-# CodeBook for the dataset in meandata.txt
-# (= output of run_analysis.R)
+# CodeBook for the dataset in meandata.txt (= output of run_analysis.R)
 
-The dataset "meandata.txt" is a tidy summary data set which is based on the "Human Activity Recognition Using Smartphones Data Set" available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. In short, the data come from the accelerometer and gyroscope of smartphones which were worn by volunteers (N=30) performing different activities (see below). For a full description of the experiment and data see link above.
+The dataset in "meandata.txt" is a tidy summary data set of the "Human Activity Recognition Using Smartphones Data Set" available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. In short, the data come from the accelerometer and gyroscope of smartphones which were worn by volunteers (N=30) performing different activities (see below). For a full description of the experiment and data see link above.
 
 
 ## Variables included in meandata.txt :
@@ -39,7 +38,6 @@ Frequency-domain features (prefix 'f') include:
 For each of these features exists one column in the datset represented the mean (variable names include 'Mean') and one column representing the standard deviation (variable name include 'Std').
 
 
-Transformations:
-----------------
+# Transformations:
 
 The values for the features included in meandata.txt represent the average for each subject and each activity.
