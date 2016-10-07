@@ -13,12 +13,12 @@ The script should be run using the source() function (or the "source" button in 
 
 When sourced the script does the following processing steps:
 - check if original data set is in working directory (if not, dataset is optionally downloaded)
-- read in the relevant text files of the original
+- read in the relevant text files
 - merge training and test data sets
-- add columns names (for features) and labels for activity variable 
+- add columns names (for features) and labels for "activity" variable 
 - extract only mean and standard deviation features
 - transform dataset to create a tidy one containing for each feature only the averaged value for each subject and activity
-- save tidy data set into text file
+- write tidy data set to text file
 
 ### 2) The "CodeBook.md" file 
 ... provides a description of the data set in the "meandata.txt" file created by "run_analyis.R" (e.g. performed transformations, etc.).
