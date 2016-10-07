@@ -3,14 +3,14 @@
 The dataset in "meandata.txt" is a tidy summary data set of the "Human Activity Recognition Using Smartphones Data Set" available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. In short, the data come from the accelerometer and gyroscope of smartphones which were worn by volunteers (N=30) performing different activities (see below). For a full description of the experiment and data see link above.
 
 
-### Variables included in meandata.txt :
+### Variables included in meandata.txt:
 
-The first two columns of the dataset are factors identifying subject and activity:
+The first two columns (= variables) of the dataset are factors identifying subject and performed activity:
 
 - subjectID: Subject identifier. The range is from 1 to 30. 
 - activity: Activity performed by the subject. 6 levels: walking, walking upstairs, walking downstairs, standing, siting, laying.
 
-The remaining 66 columns represent the means and the standard deviations for the following time- and frequency domain features included in the original data set (-XYZ is used to denote 3 separate columns for X, Y, and Z direction):
+The remaining 66 columns represent the means and the standard deviations for the following time- and frequency domain features included in the original data set (-XYZ is used to denote variables for which 3 separate columns exist corresponding to the X, Y, and Z direction):
 
 Time-domain features (prefix 't') include:
 - tBodyAcc-XYZ
@@ -33,8 +33,8 @@ Frequency-domain features (prefix 'f') include:
 - fBodyBodyGyroMag
 - fBodyBodyGyroJerkMag
 
-For each of these features, there are two columns in the datset, one representing the mean value (variable names including 'Mean') and one representing the standard deviation (variable names including 'Std').
+For each of these features, there are two columns in the data set, one representing the mean value (variable names including 'Mean') and one representing the standard deviation (variable names including 'Std').
 
 ### Transformations:
 
-The values for the features included in meandata.txt represent were averaged for each subject and each activity.
+The values for the features included in meandata.txt represent the average for each subject and each activity.
