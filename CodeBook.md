@@ -8,7 +8,6 @@ The dataset in "meandata.txt" is a tidy summary data set of the "Human Activity 
 The first two columns of the dataset are factors identifying subject and activity:
 
 - subjectID: Subject identifier. The range is from 1 to 30. 
-
 - activity: Activity performed by the subject. 6 levels: walking, walking upstairs, walking downstairs, standing, siting, laying.
 
 The remaining 66 columns represent the means and the standard deviations for the following time- and frequency domain features included in the original data set (-XYZ is used to denote 3 separate columns for X, Y, and Z direction):
@@ -34,10 +33,8 @@ Frequency-domain features (prefix 'f') include:
 - fBodyBodyGyroMag
 - fBodyBodyGyroJerkMag
 
-
 For each of these features exists one column in the datset represented the mean (variable names include 'Mean') and one column representing the standard deviation (variable name include 'Std').
 
-
-# Transformations:
+## Transformations:
 
 The values for the features included in meandata.txt represent the average for each subject and each activity.
