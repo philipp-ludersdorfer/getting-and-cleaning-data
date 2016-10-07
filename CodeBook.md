@@ -33,8 +33,8 @@ Frequency-domain features (prefix 'f') include:
 - fBodyBodyGyroMag
 - fBodyBodyGyroJerkMag
 
-For each of these features exists one column in the datset represented the mean (variable names include 'Mean') and one column representing the standard deviation (variable name include 'Std').
+For each of these features, there are two columns in the datset, one representing the mean value (variable names including 'Mean') and one representing the standard deviation (variable names including 'Std').
 
 ## Transformations:
 
-The values for the features included in meandata.txt represent the average for each subject and each activity.
+The values for the features included in meandata.txt represent were averaged for each subject and each activity.
