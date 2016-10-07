@@ -1,4 +1,4 @@
-# CodeBook for the dataset in meandata.txt (= output of run_analysis.R)
+# CodeBook for meandata.txt (= output of run_analysis.R)
 
 The dataset in "meandata.txt" is a tidy summary data set of the "Human Activity Recognition Using Smartphones Data Set" available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. In short, the data come from the accelerometer and gyroscope of smartphones which were worn by volunteers (N=30) performing different activities (see below). For a full description of the experiment and data see link above.
 
